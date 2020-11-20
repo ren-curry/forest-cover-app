@@ -107,4 +107,3 @@ venv.bak/
 
 # Others to ignore
 data/
-*.joblib
