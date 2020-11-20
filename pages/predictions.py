@@ -10,7 +10,7 @@ import numpy as np
 # Imports from this application
 from app import app
 from joblib import load
-pipeline = load("assets/pipeline.joblib")
+#pipeline = load("assets/pipeline.joblib")
 
 @app.callback(
     Output('prediction-content', 'children'),
@@ -47,7 +47,7 @@ def predict(Elevation, Aspect, Slope, Horizontal_Distance_To_Hydrology,
             Hillshade_3pm, Soil_Type, Wilderness_Area, Climatic_Zone, Geologic_Zone, 
             Euclidean_Distance_To_Hydrology]]
     )
-    y_pred = pipeline.predict(df)[0]
+    y_pred = 'Heroku hates the model' #pipeline.predict(df)[0]
     return f'{y_pred}'
 
 # 2 column layout. 1st column width = 4/12
