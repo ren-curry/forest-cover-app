@@ -59,7 +59,14 @@ column1 = dbc.Col(
         
             ## Predictions
 
-            Your instructions: How to use your app to get new predictions.
+            To make a prediction, adjust the features to the right. There are a total of 12 options features which you can adjust. You will predict one of the following type of trees providing the cover:
+            * Spruce/Fir 
+            * Lodgepole Pine 
+            * Ponderosa Pine 
+            * Cottonwood/Willow 
+            * Aspen 
+            * Douglas-fir 
+            * Krummholz
 
             """
         ),
@@ -217,7 +224,7 @@ column2 = dbc.Col(
                 {'label': 'Soil Type 39', 'value': '8772'},
                 {'label': 'Soil Type 40', 'value': '8776'}, 
             ], 
-            value = 'Soil Type 1', 
+            value = 'Soil Type 10', 
             className='mb-5', 
         ), 
         dcc.Markdown('#### Wilderness Area'), 

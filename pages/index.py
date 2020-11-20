@@ -16,17 +16,15 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Forest Cover Type Predictor
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            Welcome to the Forest Cover Type predictor for the Roosevelt National Forest. This app will predict the type of Tree Covering a given 30m by 30m section of forest based on the cartographic values provide. This app could be useful for hikers, botany hobbyists, or perhaps even the forest service. 
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
-
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            Click the button below to access the predictor. 
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Predict your Cover Type', color='primary'), href='/predictions')
     ],
     md=4,
 )
