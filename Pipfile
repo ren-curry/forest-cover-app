@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "==0.14.2"
+dash = "==1.9.1"
+dash-bootstrap-components = "*"
+plotly = "*"
+pandas = "*"
+matplotlib = "*"
+category-encoders = "*"
+notebook = "*"
+numpy = "*"
+scipy = "*"
+seaborn = "*"
+sklearn = "*"
+xgboost = "*"
+catboost = "*"
+requests = "*"
+scikit-optimize = "*"
+shap = "*"
+joblib = "==0.17.0"
+pylint = "*"
+PDPbox = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

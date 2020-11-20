@@ -1,7 +1,6 @@
-gunicorn==0.14.2
+gunicorn
 dash==1.9.1
 dash-bootstrap-components
-gunicorn==0.14.2
 plotly
 pandas
 matplotlib
